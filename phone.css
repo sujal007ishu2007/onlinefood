@@ -1,0 +1,40 @@
+.home{
+    height: 420px;
+    padding: 0px 50px;
+}
+.home::before{
+    height: 740px;
+}
+#navbar{
+    flex-direction: column;
+}
+#navbar p{
+    font-size: 15px;
+}
+.primary{
+    font-size: 35px;
+}
+.service{
+    flex-direction: column;
+}
+.services::before{
+    height: 210%;
+}
+
+.clients img{
+   height: 100px;
+   width: 100px;
+}
+.clients{
+    flex-wrap: wrap;
+}
+.client::before{
+    height: 60%;
+}
+.logo img{
+    height: 230px;
+    width: 320px;
+}
+.services{
+margin-top: 2px;
+}

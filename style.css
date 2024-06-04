@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    position: ab;
+    
+}
+
+
+.logo{
+   
+    margin:10px 15px;
+}
+.logo img{
+    height: 130px;
+    width: 130px;
+    margin: 5px 5px;
+}
+
+#navbar ul{
+display: flex;
+
+}
+
+
+#navbar::before{
+    content: "";
+    background-color:  black;
+    position: absolute;
+    height: 76%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+top:0px;
+left: 0px;
+;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.2rem;
+
+    
+    }
+    #navbar ul li a{
+        display: block;
+        margin: 5px 15px;
+         text-decoration: none;
+         border-radius: 20px;
+         color: white;
+    }
+    #navbar ul li a:hover{
+        color: black;
+        background-color: white;
+    }
+
+    .home{
+        display: flex;
+        flex-direction: column;
+        padding: 10px 35px;
+        align-items: center;
+        justify-content: center;
+        height: 485px;
+      
+    }
+    .home::before{
+        content: "";
+        background: url("./b1/f1.webp") no-repeat center center/cover;
+        position: absolute;
+        height: 93%;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.8;
+        top:0px;
+        left: 0px;
+        
+
+    }
+
+    .home h1{
+        color: rgb(244, 238, 238);
+        text-align: center;
+    }
+    .home p{
+        color: white;
+        font-size: 1rem;
+        font-style: italic;
+        text-align: center;
+    }
+    .primary{
+        font-size: 3.2rem;
+        padding: 17px;
+        text-align: center;
+    }
+    .home button{
+        color: white;
+        background-color: brown;
+        border-color: white;
+        margin: 20px;
+        font-size: 1.3rem;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .home button:hover{
+    color: brown;
+    background-color: white;
+    border-color: brown;
+    }
+  
+.service{
+    display: flex;
+    margin: 34px;
+    
+}
+.service .box{
+    border: 2px solid black;
+    padding: 15px 20px;
+    margin-top: 80px;
+    padding: 34px;
+    margin: 13px 10px;
+    border-radius: 20px;
+    background-color: rgb(228, 220, 212);
+    border-color: rgb(209, 81, 21);
+}
+.service .box img{
+    height: 150px;
+    width: 150px;
+    display: block;
+    margin: auto;
+}
+.secondary{
+    font-weight: 1.6rem;
+    padding:15px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.services::before{
+    content: "";
+    background-color:  rgb(89, 32, 29);
+    position: absolute;
+    height:70%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.2;}
+.services h1{
+    color: orangered;
+    font-style: italic;
+}
+.client{
+    height: 400px;
+
+}
+.clients{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.clients img{
+    height: 250px;
+    width: 250px;
+   
+}
+.client-item{
+  padding: 35px;
+  position: relative;
+}
+.client::before{
+    content: "";
+    background: url("./b1/bg.jpg") no-repeat center center/cover;
+    position: absolute;
+    height: 50%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.3;
+    
+    
+}
+.client h1{
+    color: rgb(218, 86, 86);
+    font-style: italic;
+}
+
+.contact{
+    position: relative;
+}
+.contact::before{
+    content: "";
+    background-color: rgb(255, 151, 151);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.4;
+    z-index: -1;
+}
+.contact h1{
+    color: rgb(138, 35, 23);
+    font-style: italic;
+}
+#contactus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+
+#contactus input,
+#contactus textarea{
+    width: 100%;
+    padding:0.7rem ;
+}
+footer{
+    background-color: rgb(49, 67, 233);
+    color: aliceblue;
+    text-align: center;
+}
